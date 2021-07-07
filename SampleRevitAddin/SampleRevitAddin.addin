@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RevitAddIns>
+  <AddIn Type="Command">
+    <Text>Sample External Command</Text>
+    <Description></Description>
+    <Assembly>SampleRevitAddin.dll</Assembly>
+    <FullClassName>SampleRevitAddin.SampleExternalCommand</FullClassName>
+    <ClientId>b3848c92-b979-43c0-b73b-22ee63db2990</ClientId>
+    <VendorId>ABC</VendorId>
+    <VendorDescription>ACME</VendorDescription>
+  </AddIn>
+  <AddIn Type="Application">
+    <Name>Sample External Application</Name>
+    <Assembly>SampleRevitAddin.dll</Assembly>
+    <FullClassName>SampleRevitAddin.SampleExternalApplication</FullClassName>
+    <ClientId>e6a80a65-4b5b-414a-aa37-badf750c00c2</ClientId>
+    <VendorId>ABC</VendorId>
+    <VendorDescription>ACME</VendorDescription>
+  </AddIn>
+</RevitAddIns>

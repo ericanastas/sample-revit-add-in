@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30413.136
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "SampleRevitAddin", "SampleRevitAddin\SampleRevitAddin.shproj", "{7295693C-98D7-42A5-890E-179DC6BFCB6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRevitAddin (Revit 2017)", "SampleRevitAddin (2017)\SampleRevitAddin (Revit 2017).csproj", "{BECF700B-89F3-47F1-B494-B714F3290845}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRevitAddin (Revit 2018)", "SampleRevitAddin (2018)\SampleRevitAddin (Revit 2018).csproj", "{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRevitAddin (Revit 2019)", "SampleRevitAddin (2019)\SampleRevitAddin (Revit 2019).csproj", "{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SampleRevitAddin (Revit 2020)", "SampleRevitAddin (2020)\SampleRevitAddin (Revit 2020).csproj", "{88734008-DC6F-4605-AFE4-60E9FBEA6778}"
+EndProject
+Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "SampleRevitAddinSetup", "SampleRevitAddinSetup\SampleRevitAddinSetup.wixproj", "{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}"
+EndProject
+Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		SampleRevitAddin\SampleRevitAddin.projitems*{28a40198-dbad-4feb-8be0-f1888f7656a0}*SharedItemsImports = 4
+		SampleRevitAddin\SampleRevitAddin.projitems*{7295693c-98d7-42a5-890e-179dc6bfcb6d}*SharedItemsImports = 13
+		SampleRevitAddin\SampleRevitAddin.projitems*{88734008-dc6f-4605-afe4-60e9fbea6778}*SharedItemsImports = 4
+		SampleRevitAddin\SampleRevitAddin.projitems*{becf700b-89f3-47f1-b494-b714f3290845}*SharedItemsImports = 4
+		SampleRevitAddin\SampleRevitAddin.projitems*{e7f8a3a1-71ed-4df9-9eb4-694ee16c27b3}*SharedItemsImports = 4
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Debug|x86.Build.0 = Debug|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Release|x86.ActiveCfg = Release|Any CPU
+		{BECF700B-89F3-47F1-B494-B714F3290845}.Release|x86.Build.0 = Release|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Debug|x86.Build.0 = Debug|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Release|x86.ActiveCfg = Release|Any CPU
+		{28A40198-DBAD-4FEB-8BE0-F1888F7656A0}.Release|x86.Build.0 = Release|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Debug|x86.Build.0 = Debug|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Release|x86.ActiveCfg = Release|Any CPU
+		{E7F8A3A1-71ED-4DF9-9EB4-694EE16C27B3}.Release|x86.Build.0 = Release|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Debug|x86.Build.0 = Debug|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Release|x86.ActiveCfg = Release|Any CPU
+		{88734008-DC6F-4605-AFE4-60E9FBEA6778}.Release|x86.Build.0 = Release|Any CPU
+		{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}.Debug|Any CPU.ActiveCfg = Debug|x86
+		{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}.Debug|x86.ActiveCfg = Debug|x86
+		{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}.Debug|x86.Build.0 = Debug|x86
+		{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}.Release|Any CPU.ActiveCfg = Release|x86
+		{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}.Release|x86.ActiveCfg = Release|x86
+		{5500D3C8-ABF1-4D5A-8B1F-74C0FBB747EC}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {10FB8B29-8A14-4B3B-BADF-7F4D1018CC0D}
+	EndGlobalSection
+EndGlobal
